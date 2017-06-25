@@ -9,10 +9,12 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "banana.cpp"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": false,
+    "installedVersion": "file:../pxt-banana"
 }

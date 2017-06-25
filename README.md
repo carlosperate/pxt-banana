@@ -1,6 +1,8 @@
 # banana
 
-My banana project
+My banana project.
+
+Example of a PXT module with C++
 
 ## License
 
