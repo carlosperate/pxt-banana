@@ -1,0 +1,24 @@
+{
+    "name": "Project With Extension",
+    "version": "1.0.0",
+    "description": "A local project using the banana example extension",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "banana": "file:pxt-banana"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
