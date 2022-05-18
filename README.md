@@ -31,19 +31,19 @@ This image may take a few minutes to refresh.
 ## Available blocks in this extension
 
 ```blocks
-basic.showNumber(banana.bananas(3))
+basic.showNumber(banana.bananas(1))
 ```
 
 ```sig
-basic.showNumber(banana.bananas(3))
+basic.showNumber(banana.bananaAdd(2, 3))
 ```
 
 ```blocks
-basic.showNumber(banana.bananaMultiplier(3))
+basic.showNumber(banana.bananaMultiplier(4))
 ```
 
 ```blocks
-basic.showNumber(banana.bananaMultiply(3, 3))
+basic.showNumber(banana.bananasV2(5))
 ```
 
 ## License
