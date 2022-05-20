@@ -21,6 +21,41 @@ To edit this repository in MakeCode.
 - Click on **Import** then click on **Import URL**
 - Paste **https://github.com/carlosperate/pxt-banana** and click import
 
+After the extension is imported it can be tested via a second MakeCode
+workspace/tab, which can load the opened extension from the original
+workspace/tab:
+
+- Click the Github Icon at the bottom of the editor, next to the project name
+    - This is usually were the "save" (floppy disk) icon usually is placed
+- Scroll down to the "Extension zone", click on the "Test Extension" button
+- A new MakeCode tab or window should be opened, which automatically has your
+  extension loaded
+- Any changes on the MakeCode workspace with the extension will be synced with
+  the second workspace with the test project
+    - Whenever changes are made to the extension workspace, make sure you
+      refresh the test project window to ensure the changes are loaded
+
+## Other options for the config files
+
+JSON files cannot contain comments, so optional settinsg are documented here:
+
+### Configure the extension to only build for micro:bit V1 or V2
+
+If the extension contains any C++ code, MakeCode will attempt to compile it
+with the micro:bit V1 DAL **and** micro:bit V2 CODAL.
+If the C++ code is not compatible with both, it will cause compilation errors.
+This `pxt.json` entry can configure what version to exclude.
+
+To exclude V1 DAL compilation use value `mbdal`, to exclude V2 CODAL use
+`mbcodal`:
+```
+{
+    "disablesVariants": [
+        "mbdal"
+    ]
+}
+```
+
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
