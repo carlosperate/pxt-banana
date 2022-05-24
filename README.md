@@ -37,7 +37,7 @@ workspace/tab:
 
 ## Other options for the config files
 
-JSON files cannot contain comments, so optional settinsg are documented here:
+JSON files cannot contain comments, so optional settings are documented here:
 
 ### Configure the extension to only build for micro:bit V1 or V2
 
@@ -48,11 +48,34 @@ This `pxt.json` entry can configure what version to exclude.
 
 To exclude V1 DAL compilation use value `mbdal`, to exclude V2 CODAL use
 `mbcodal`:
-```
+```json
 {
     "disablesVariants": [
         "mbdal"
     ]
+}
+```
+
+### Add DAL or CODAL flags to the build
+
+For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
+`SOFTDEVICE_PRESENT`, `MICROBIT_BLE_ENABLED`) and DAL
+(`microbit-dal -> bluetooth -> enabled`).
+
+```json
+{
+    "yotta": {
+        "config": {
+            "DEVICE_BLE": 1,
+            "SOFTDEVICE_PRESENT": 1,
+            "MICROBIT_BLE_ENABLED": 1,
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 1
+                }
+            }
+        }
+    }
 }
 ```
 
