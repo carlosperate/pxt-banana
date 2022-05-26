@@ -66,9 +66,11 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
 {
     "yotta": {
         "config": {
-            "DEVICE_BLE": 1,
-            "SOFTDEVICE_PRESENT": 1,
-            "MICROBIT_BLE_ENABLED": 1,
+            "codal": {
+                "DEVICE_BLE": 1,
+                "SOFTDEVICE_PRESENT": 1,
+                "MICROBIT_BLE_ENABLED": 1
+            },
             "microbit-dal": {
                 "bluetooth": {
                     "enabled": 1
