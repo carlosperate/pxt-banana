@@ -68,7 +68,6 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
         "config": {
             "codal": {
                 "DEVICE_BLE": 1,
-                "SOFTDEVICE_PRESENT": 1,
                 "MICROBIT_BLE_ENABLED": 1
             },
             "microbit-dal": {
@@ -80,6 +79,24 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
     }
 }
 ```
+
+> [!WARNING]
+> MakeCode GH issue: https://github.com/microsoft/pxt-microbit/issues/5352
+> 
+> For each flag in `yotta.config.codal` MakeCode creates two defines, the
+> first one prepended by `DEVICE_`, and the second by `YOTTA_CFG_CODAL_`.
+> So, in this example `DEVICE_BLE` becomes `DEVICE_DEVICE_BLE` and
+> `YOTTA_CFG_CODAL_DEVICE_BLE`.
+>
+> Flags added to parent `yotta.config` are not modified, but will be
+> present in all variants, i.e. `mbdal` and`mbcodal`:
+> ```json
+> "yotta": {
+>     "config": {
+>         "DEVICE_BLE": 1,
+>     }
+> }
+> ```
 
 ## Blocks preview
 
