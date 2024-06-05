@@ -140,19 +140,30 @@ This image may take a few minutes to refresh.
 
 ## Available blocks in this extension
 
+The rendering of this sections can be seen in:
+https://carlosperate.github.io/pxt-banana/
+
+The first block will render as blocks, the second and third as cards, and the last will render as a signature in blocks, JavaScript, and Python.
+
 ```blocks
 basic.showNumber(banana.bananas(1))
 ```
 
-```sig
+```cards
 basic.showNumber(banana.bananaAdd(2, 3))
-```
-
-```blocks
 basic.showNumber(banana.bananaMultiplier(4))
 ```
 
-```blocks
+```sig
+basic.showNumber(banana.bananasV2(5))
+```
+
+A simulator showing the code above:
+
+```sim
+basic.showNumber(banana.bananas(1))
+basic.showNumber(banana.bananaAdd(2, 3))
+basic.showNumber(banana.bananaMultiplier(4))
 basic.showNumber(banana.bananasV2(5))
 ```
 
