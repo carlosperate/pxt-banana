@@ -5,10 +5,13 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
         "README.md",
+        "shims.d.ts",
+        "enums.d.ts",
         "main.ts",
         "banana.cpp"
     ],

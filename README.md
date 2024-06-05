@@ -1,6 +1,8 @@
 # MakeCode "banana" Example Extension
 
-A simple banana extension.
+ !["Build status badge"](https://github.com/carlosperate/pxt-banana/workflows/MakeCode/badge.svg)
+
+A simple 🍌 extension.
 
 This is an example of a PXT (MakeCode) extension with C++.
 
@@ -13,7 +15,9 @@ This repository can be added as an **extension** in MakeCode.
 - Click on **Extensions** under the gearwheel menu
 - Search for **https://github.com/carlosperate/pxt-banana** and import it
 
-## Edit this extension !["Build status badge"](https://github.com/carlosperate/pxt-banana/workflows/MakeCode/badge.svg)
+## Edit this extension
+
+### In MakeCode
 
 To edit this repository in MakeCode.
 
@@ -34,6 +38,35 @@ workspace/tab:
   the second workspace with the test project
     - Whenever changes are made to the extension workspace, make sure you
       refresh the test project window to ensure the changes are loaded
+
+### Local builds
+
+Using the node.js pxt cli application:
+
+```bash
+git clone https://github.com/carlosperate/pxt-banana.git
+cd pxt-banana
+npm install pxt --no-save
+npx pxt target microbit --no-save
+npx pxt install
+npx pxt
+```
+
+Using the `pxt` command without any arguments will use the MakeCode online
+compiler to build the C++ portions of the project, and flash the resulting
+hex file to the micro:bit.
+
+The `PXT_FORCE_LOCAL=1` environmental variable can be used to force a local
+build. By default it will use a docker image with the all the required
+toolchain, adding `PXT_NODOCKER=1` will build with the local toolchain:
+
+```bash
+PXT_FORCE_LOCAL=1 PXT_NODOCKER=1 npx pxt
+```
+
+To build only for micro:bit V2 (saves time and the need to have the V1
+build dependencies) the `PXT_COMPILE_SWITCHES=csv---mbcodal` env variable
+can be used as well.
 
 ## Other options for the config files
 
