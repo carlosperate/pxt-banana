@@ -1,6 +1,6 @@
 {
     "name": "banana-extension",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "An example extension with a banana flavour.",
     "license": "MIT",
     "dependencies": {
