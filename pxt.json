@@ -12,11 +12,12 @@
         "README.md",
         "shims.d.ts",
         "enums.d.ts",
-        "main.ts",
+        "banana.ts",
         "banana.cpp"
     ],
     "testFiles": [
-        "test.ts"
+        "main.ts",
+        "main.blocks"
     ],
     "public": true,
     "supportedTargets": [
