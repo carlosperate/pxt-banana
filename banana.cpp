@@ -17,8 +17,8 @@ namespace banana {
      * This simple C++ function to simply add your bananas!
      */
     //%
-    int banana_add(int bananas, int multiplier) {
-        return bananas + multiplier;
+    int banana_add(int left, int right) {
+        return left + right;
     }
 
     /**
@@ -27,13 +27,13 @@ namespace banana {
      */
     //%
     int banana_multiplier(int bananas) {
-    #if MICROBIT_CODAL
-        // On micro:bit V2 the multiplier is 2
-        return bananas * V2_MULTIPLIER;
-    #else
-        // On micro:bit V1 the multiplier is 1
-        return bananas * V1_MULTIPLIER;
-    #endif
+        #if MICROBIT_CODAL
+            // On micro:bit V2 the multiplier is higher than V1
+            return bananas * V2_MULTIPLIER;
+        #else
+            // On micro:bit V1 the multiplier is lower than V2
+            return bananas * V1_MULTIPLIER;
+        #endif
     }
 
     /**
@@ -42,10 +42,11 @@ namespace banana {
      */
     //%
     int bananas_v2_only(int bananas) {
-    #if MICROBIT_CODAL
-        return bananas;
-    #else
-        target_panic(PANIC_VARIANT_NOT_SUPPORTED);
-    #endif
+        #if MICROBIT_CODAL
+            return bananas;
+        #else
+            // This is the official error code for non-compatible board
+            target_panic(PANIC_VARIANT_NOT_SUPPORTED);
+        #endif
     }
 }

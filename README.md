@@ -2,7 +2,7 @@
 
  !["Build status badge"](https://github.com/carlosperate/pxt-banana/workflows/MakeCode/badge.svg)
 
-A commented example MakeCode (PXT) extension using C++ and a 🍌 flavour.
+An example MakeCode (PXT) extension using C++, with comments, and 🍌 flavour.
 
 ## Add to a MakeCode Project
 
@@ -79,6 +79,7 @@ This `pxt.json` entry can configure what version to exclude.
 
 To exclude V1 DAL compilation use value `mbdal`, to exclude V2 CODAL use
 `mbcodal`:
+
 ```json
 {
     "disablesVariants": [

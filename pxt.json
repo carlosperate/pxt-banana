@@ -1,7 +1,7 @@
 {
-    "name": "banana-extension",
+    "name": "Banana Example",
     "version": "0.1.2",
-    "description": "An example extension with a banana flavour.",
+    "description": "An example C++ extension with a banana flavour.",
     "license": "MIT",
     "dependencies": {
         "core": "*",
