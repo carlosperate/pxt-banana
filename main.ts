@@ -1,4 +1,7 @@
-// tests go here; this will not be compiled when this package is used as a library
+/**
+ * This file contain test code for extension development.
+ * It will not be included or compiled when this package is added to a project as an extension
+ */
 
 basic.forever(() => {
     basic.showNumber(banana.bananas(3))

@@ -2,9 +2,7 @@
 
  !["Build status badge"](https://github.com/carlosperate/pxt-banana/workflows/MakeCode/badge.svg)
 
-A simple 🍌 extension.
-
-This is an example of a PXT (MakeCode) extension with C++.
+A commented example MakeCode (PXT) extension using C++ and a 🍌 flavour.
 
 ## Add to a MakeCode Project
 
@@ -130,13 +128,6 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
 >     }
 > }
 > ```
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/carlosperate/pxt-banana/raw/master/.github/makecode/blocks.png)
 
 ## Available blocks in this extension
 

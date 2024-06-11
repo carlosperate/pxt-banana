@@ -1,10 +1,11 @@
 /**
  * Provides access to all the banana functionality.
- * 
+ *
  * Function docstrings appear as info the in JavaScript toolbox.
- * 
- * A function defined here with a "shim" entry will run as it is here in the
- * simulator, and the C++ function will run in the micro:bit.
+ *
+ * A function defined here with a "shim" entry will run this code in the
+ * simulator, and the C++ code will run in the micro:bit.
+ *
  * Info about shims: https://makecode.com/simshim
  * Info about defining blocks: https://makecode.com/defining-blocks
  */
