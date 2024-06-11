@@ -1,6 +1,6 @@
 {
     "name": "Banana Example",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "An example C++ extension with a banana flavour.",
     "license": "MIT",
     "dependencies": {
