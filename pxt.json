@@ -13,7 +13,9 @@
         "shims.d.ts",
         "enums.d.ts",
         "banana.ts",
-        "banana.cpp"
+        "banana.cpp",
+        "_locales/es/Banana Example-jsdoc-strings.json",
+        "_locales/es/Banana Example-strings.json"
     ],
     "testFiles": [
         "main.ts",

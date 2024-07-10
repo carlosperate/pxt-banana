@@ -1,0 +1,8 @@
+{
+  "banana.bananaAdd|block": "add your bananas %n | + %m",
+  "banana.bananaMultiplier|block": "multiply your bananas %n",
+  "banana.bananasV2Only|block": "how many bananas (V2 only) %n",
+  "banana.bananas|block": "how many bananas %n",
+  "banana|block": "Banana Blocks",
+  "{id:category}Banana": "Banana"
+}

@@ -1,0 +1,10 @@
+{
+  "banana": "C++ functions as part of the extension.\n* A function defined here will run on the micro:bit, there is also a \"shim\"\nin the main.ts file that will be run in the simulator.\nInfo about shims: https://makecode.com/simshim\n\nProvides access to all the banana functionality.\n* Function docstrings appear as info the in JavaScript toolbox.\n* A function defined here with a \"shim\" entry will run this code in the\nsimulator, and the C++ code will run in the micro:bit.\n* Info about shims: https://makecode.com/simshim\nInfo about defining blocks: https://makecode.com/defining-blocks",
+  "banana.bananaAdd": "Add your bananas!\n* This function is a shim and the micro:bit runs the C++ version.\n* @param n number of bananas",
+  "banana.bananaMultiplier": "Multiply your bananas by a predefined multiplier depending on the\nmicro:bit version that runs this code!\n* This function is a shim and the micro:bit runs the C++ version.\nThe output of this function will depend on the version of the micro:bit\nthat runs it, V1 or V2.\n* @param n number of bananas",
+  "banana.banana_add": "This simple C++ function to simply add your bananas!",
+  "banana.banana_multiplier": "This function uses the C preprocessor to compile different code\ndepending on the version of the micro:bit.",
+  "banana.bananas": "How many bananas?\n* This function is fully implemented in TypeScript.\n* @param n number of bananas",
+  "banana.bananasV2Only": "Get your bananas! But this version only works on micro:bit V2.\n* This function is a shim and the micro:bit runs the C++ version.\n* @param n number of bananas",
+  "banana.bananas_v2_only": "This function uses the C preprocessor to throw an error if this function\nis run on a micro:bit V1."
+}
