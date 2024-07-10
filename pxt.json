@@ -14,8 +14,8 @@
         "enums.d.ts",
         "banana.ts",
         "banana.cpp",
-        "_locales/es/Banana Example-jsdoc-strings.json",
-        "_locales/es/Banana Example-strings.json"
+        "_locales/es-ES/Banana Example-jsdoc-strings.json",
+        "_locales/es-ES/Banana Example-strings.json"
     ],
     "testFiles": [
         "main.ts",
