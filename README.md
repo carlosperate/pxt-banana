@@ -135,22 +135,28 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
 The rendering of this sections can be seen in:
 https://carlosperate.github.io/pxt-banana/
 
-The first block will render as blocks, the second and third as cards, and the last will render as a signature in blocks, JavaScript, and Python.
+The first block will render as blocks:
 
 ```blocks
 basic.showNumber(banana.bananas(1))
 ```
+
+This block should render as cards (currently not rendering):
 
 ```cards
 basic.showNumber(banana.bananaAdd(2, 3))
 basic.showNumber(banana.bananaMultiplier(4))
 ```
 
+This block should render as a signature in blocks, JavaScript, and Python
+(currently not rendering):
+
 ```sig
 basic.showNumber(banana.bananasV2(5))
 ```
 
-A simulator showing the code above:
+And this should render simulator showing all the code above
+(currently not rendering):
 
 ```sim
 basic.showNumber(banana.bananas(1))
@@ -158,6 +164,14 @@ basic.showNumber(banana.bananaAdd(2, 3))
 basic.showNumber(banana.bananaMultiplier(4))
 basic.showNumber(banana.bananasV2(5))
 ```
+
+## Useful links
+
+- [Building your own extension](https://makecode.com/extensions/getting-started)
+- [Naming Conventions](https://makecode.com/extensions/naming-conventions)
+- [Extension localization](https://makecode.com/extensions/localization)
+- [MakeCode Blocks Playground](https://makecode.com/playground)
+- [pxt.json Manual Page](https://makecode.com/extensions/pxt-json)
 
 ## License
 
