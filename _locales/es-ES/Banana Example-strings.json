@@ -1,8 +1,8 @@
 {
-  "banana.bananaAdd|block": "suma tus bananas %n | + %m",
-  "banana.bananaMultiplier|block": "multiplica tus bananas %n",
-  "banana.bananasV2Only|block": "¿cuantas bananas (V2 only)? %n",
-  "banana.bananas|block": "¿cuantas bananas? %n",
+  "banana.bananaAdd|block": "suma tus bananas $s | + $m",
+  "banana.bananaMultiplier|block": "multiplica tus bananas $s",
+  "banana.bananasV2Only|block": "¿cuantas bananas (V2 only)? $s",
+  "banana.bananas|block": "¿cuantas bananas? $s",
   "banana|block": "Bloques de Banana",
   "{id:category}Banana": "Banana"
 }

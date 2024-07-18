@@ -22,7 +22,7 @@ namespace banana {
      * @param n number of bananas
      */
     //% blockId=banana_bananas
-    //% block="how many bananas %n"
+    //% block="how many bananas $n"
     export function bananas(n: number): number {
         return n;
     }
@@ -35,7 +35,7 @@ namespace banana {
      * @param n number of bananas
      */
     //% blockId=banana_banana_add
-    //% block="add your bananas %n | + %m"
+    //% block="add your bananas $n | + $m"
     //% shim=banana::banana_add
     export function bananaAdd(n: number, m: number): number {
         // This code runs in the simulator
@@ -53,7 +53,7 @@ namespace banana {
      * @param n number of bananas
      */
     //% blockId=banana_banana_multiplier
-    //% block="multiply your bananas %n"
+    //% block="multiply your bananas $n"
     //% shim=banana::banana_multiplier
     export function bananaMultiplier(n: number): number {
         // The simulator cannot differentiate micro:bit versions
@@ -68,7 +68,7 @@ namespace banana {
      * @param n number of bananas
      */
     //% blockId=banana_banana_v2
-    //% block="how many bananas (V2 only) %n"
+    //% block="how many bananas (V2 only) $n"
     //% shim=banana::bananas_v2_only
     export function bananasV2Only(n: number): number {
         // The simulator does not differentiate between board version
