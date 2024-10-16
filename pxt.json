@@ -4,9 +4,7 @@
     "description": "An example C++ extension with a banana flavour.",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
