@@ -141,18 +141,18 @@ The first block will render as blocks:
 basic.showNumber(banana.bananas(1))
 ```
 
-This block should render as cards (currently not rendering):
+This block should render each block as individual cards (currently not rendering):
 
 ```cards
-basic.showNumber(banana.bananaAdd(2, 3))
-basic.showNumber(banana.bananaMultiplier(4))
+banana.bananaAdd(2, 3)
+banana.bananaMultiplier(4)
 ```
 
 This block should render as a signature in blocks, JavaScript, and Python
 (currently not rendering):
 
 ```sig
-basic.showNumber(banana.bananasV2(5))
+banana.bananaMultiplier(5)
 ```
 
 And this should render simulator showing all the code above
@@ -162,7 +162,7 @@ And this should render simulator showing all the code above
 basic.showNumber(banana.bananas(1))
 basic.showNumber(banana.bananaAdd(2, 3))
 basic.showNumber(banana.bananaMultiplier(4))
-basic.showNumber(banana.bananasV2(5))
+basic.showNumber(banana.bananasV2Only(5))
 ```
 
 ## Useful links

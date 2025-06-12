@@ -4,12 +4,12 @@
  */
 
 basic.forever(() => {
-    basic.showNumber(banana.bananas(2))
+    basic.showNumber(banana.bananas(1))
     basic.pause(1000)
-    basic.showNumber(banana.bananaAdd(2, 2))
+    basic.showNumber(banana.bananaAdd(2, 3))
     basic.pause(1000)
-    basic.showNumber(banana.bananaMultiplier(3))
+    basic.showNumber(banana.bananaMultiplier(4))
     basic.pause(1000)
-    basic.showNumber(banana.bananasV2Only(3))
+    basic.showNumber(banana.bananasV2Only(5))
     basic.pause(1000)
 })
