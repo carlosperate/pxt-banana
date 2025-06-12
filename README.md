@@ -135,27 +135,28 @@ For example, these are the BLE flags for CODAL (`DEVICE_BLE`,
 The rendering of this sections can be seen in:
 https://carlosperate.github.io/pxt-banana/
 
-The first block will render as blocks:
+This snippet will render as blocks:
 
 ```blocks
 basic.showNumber(banana.bananas(1))
 ```
 
-This block should render each block as individual cards (currently not rendering):
+This snippet should render each API call as individual cards
+(currently not rendering):
 
 ```cards
 banana.bananaAdd(2, 3)
 banana.bananaMultiplier(4)
 ```
 
-This block should render as a signature in blocks, JavaScript, and Python
+This snippet should render as a signature in blocks, JavaScript, and Python
 (currently not rendering):
 
 ```sig
 banana.bananaMultiplier(5)
 ```
 
-And this should render simulator showing all the code above
+And this should render a simulator showing all the code above
 (currently not rendering):
 
 ```sim
