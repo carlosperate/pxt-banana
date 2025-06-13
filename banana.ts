@@ -36,7 +36,7 @@ namespace banana {
      */
     //% blockId=banana_banana_add
     //% block="add your bananas $n | + $m"
-    //% help=github:carlosperate/pxt-banana/docs/banana_add.md
+    //% help=github:carlosperate/pxt-banana/docs/banana_add
     //% shim=banana::banana_add
     export function bananaAdd(n: number, m: number): number {
         // This code runs in the simulator
